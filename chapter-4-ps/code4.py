@@ -1,6 +1,8 @@
 # 4. Write a program to sum a list with 4 numbers
 
-number = []
+number = [] #Empty list
+
+# Taking input from user:
 
 a = float(input("Enter number: "))
 number.append(a)
@@ -11,4 +13,5 @@ number.append(b)
 d = float(input("Enter number: "))
 number.append(d)
 
+# Printing sum of list elements using sum fucuntion.
 print("The sum of list elements: ",sum(number))
