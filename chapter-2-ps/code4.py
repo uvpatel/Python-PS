@@ -1,11 +1,16 @@
 '''4. Use comparison operator to find out whether ‘a’ given variable a is greater than
-‘b’ or not. Take a = 34 and b = 80'''
+‘b’ or not.'''
 
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
-if(a>b):
-    print("First number is greater than second number")
-
+#  if - else ladder.
+if(a == b):
+    print("The given numbers are same")
+    
 else:
-    print("Second number is greater than first number")
+    if(a>b):
+        print("First number is greater than second number")
+    
+    else:
+        print("Second number is greater than first number")
