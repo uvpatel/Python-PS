@@ -1,3 +1,5 @@
+# This problem same as code 1 
+
 marks = []
 
 marks_1 = float(input("Enter marks: "))
