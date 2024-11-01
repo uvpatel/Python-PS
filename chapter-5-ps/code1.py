@@ -2,8 +2,22 @@
 translation. Provide user with an option to look it up!
 '''
 
-dict = {"kela":"banana","seb":"apple","Namste":"Hello"}
+dictionary = {
+    "sooraj": "Sun",
+    "chaand": "Moon",
+    "paani": "Water",
+    "garmi": "Heat",
+    "khushi": "Happiness",
+    "dukh": "Sorrow",
+    "prem": "Love",
+    "sapna": "Dream",
+    "sangee": "Music",
+    "shanti": "Peace"
+}
 
-translate = print(dict["kela"])
-translate = print(dict["seb"])
-translate = print(dict["Namste"])
+base_word = input("Enter Hindi word from dictionary: ").strip().lower()
+
+if base_word in dictionary:
+    print(f"The meaning of {base_word} = {dictionary[base_word]}")
+else:
+    print("Word not found in dictionary.")
