@@ -1,12 +1,17 @@
 # 2. Write a python program to find remainder when a number is divided by z
 
-number = 97
+
+# Enter numartor
 
 n = int(input("Enter number: "))
 
-remender = number%n
-if(remender==0):
-    print("The given number is divisible")
+# Enter denominator
+d = int(input("Enter number: "))
+
+
+if(n%d == 0):
+    print(f"{n} is divisible by {d} ")
 
 else:
-    print("The given number is not divisible")
+    print(f"{n} is not divisible by {d}")
+ 
