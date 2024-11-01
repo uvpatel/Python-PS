@@ -2,5 +2,6 @@
 
 string = input("Enter string: ")
 
+# This count methods count given argument double spaces.
 
-print(string.count("  "))
+print(string.count("  ")) 
