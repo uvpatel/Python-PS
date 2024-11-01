@@ -15,6 +15,6 @@ marks.append(marks_5)
 marks_6 = float(input("Enter marks: "))
 marks.append(marks_6)
 
-marks.sort
+marks.sort # this sort methods print output in sorting menor.
 
 print(marks)
