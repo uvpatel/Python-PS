@@ -3,9 +3,13 @@
 
 #  Take input from user 
 
-a = float(input("Enter first number: "))
-b= float(input("Enter second number: "))
+try:
+    a = float(input("Enter first number: "))
+    b= float(input("Enter second number: "))
+    print("The sum of two given number is: ",a+b)
 
-# print sum.
+except ValueError:
+    print("Input should in float or integer")
 
-print("The sum of two given number is: ",a+b)
+finally:
+    print("End of programme")
