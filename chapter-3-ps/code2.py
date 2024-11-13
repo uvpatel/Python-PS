@@ -5,16 +5,23 @@
 letter = '''Dear <|Name|>,
 You are selected!
 <|date|>'''
+try:
+    letter = '''
+        Dear Name,
+        You are selected!
+        <|Date|>'''
 
 # Taking user input for name and date
-Name = input("Enter your name: ")
-date = input("Enter the date: ")
+    name = str(input("Enter name: "))
+    date = int(input("Enter date: "))
+  # Replacing placeholders with user inputs
+  # Replacing <|Name|> with the user's name
+  # Replacing <|date|> with the user's provided date
+  # Printing the final letter with the replacements
+    print(letter.replace("Name",name) and letter.replace("<|Date|>",date))
 
-# Replacing placeholders with user inputs
-letter = letter.replace("<|Name|>", Name)  # Replacing <|Name|> with the user's name
-letter = letter.replace("<|date|>", date)  # Replacing <|date|> with the user's provided date
+except TypeError:
+    print("Fill input properly")
 
-# Printing the final letter with the replacements
-print(letter)
 
 
