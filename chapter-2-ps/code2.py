@@ -3,15 +3,18 @@
 
 # Enter numartor
 
-n = int(input("Enter number: "))
+try: 
+    numarator = int(input("Enter numarator: "))
+    denominator = int(input("Enter number: "))
 
-# Enter denominator
-d = int(input("Enter number: "))
+    remender = numarator%denominator
+    if(remender==0):
+        print("The given number is divisible")
 
+    else:
+        print("The given number is not divisible")
+except ValueError:
+    print("Numarator Can't divisivble by zero")        
+except NotImplemented:
+    print("Input should be integer")        
 
-if(n%d == 0):
-    print(f"{n} is divisible by {d} ")
-
-else:
-    print(f"{n} is not divisible by {d}")
- 
