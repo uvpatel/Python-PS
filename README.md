@@ -1,4 +1,4 @@
-#  ![Python Logo](./assets/python.png) Python Practice Sets (Python-PS)
+#  ![Python Logo](./assets/python.png) Python Practice Sets (Python-PS)  ![Python Logo](./assets/python.png) 
 
 A collection of Python problem sets with solutions, organized chapter-wise. This repository is part of my Python learning journey and aims to strengthen problem-solving skills, logical thinking, and Python fundamentals.
 
